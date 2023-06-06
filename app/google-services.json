@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "178103449906",
+    "project_id": "garudabirdapp",
+    "storage_bucket": "garudabirdapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178103449906:android:5c7f1f54da1e1d70133f2b",
+        "android_client_info": {
+          "package_name": "com.example.garudabirdapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178103449906-bf34rqm5n0sgnrbf2gs2jk23lqna2p7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzuzNV6caPHCluriYmX_Q3USu6gMMiV3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178103449906-bf34rqm5n0sgnrbf2gs2jk23lqna2p7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

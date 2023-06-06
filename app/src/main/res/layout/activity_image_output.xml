@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ImageOutput">
+
+    <ImageView
+        android:id="@+id/birdImage"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginBottom="10dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/splash"
+        android:textSize="26sp"
+        android:fontFamily="@font/aldrich"
+        android:text="Bird Name"
+        android:drawableTint="@color/splash"
+        app:drawableEndCompat="@drawable/ic_baseline_arrow_outward_24" />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_baseline_download_24"
+        android:gravity="start|center"
+        android:layout_margin="10dp"
+        android:drawableTint="@color/white"
+        android:text="Download"/>
+
+</LinearLayout>

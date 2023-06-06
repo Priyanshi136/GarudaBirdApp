@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/intro"
+    tools:context=".IntroScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/atomic_age"
+        android:gravity="center"
+        android:text="Unlock secrets of avian life."
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/aclonica"
+        android:text="More than 900 specie."
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            app:cornerRadius="20dp"
+            android:fontFamily="@font/aclonica"
+            app:backgroundTint="#E5B016"
+            android:layout_marginStart="55dp"
+            android:layout_marginEnd="20dp"
+            android:text="Log In" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGuest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:backgroundTint="#C41B37"
+            android:layout_marginEnd="60dp"
+            android:fontFamily="@font/aclonica"
+            app:cornerRadius="20dp"
+            android:layout_weight="1"
+            android:text="Guest" />
+
+    </LinearLayout>
+
+</LinearLayout>
